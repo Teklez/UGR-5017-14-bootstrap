@@ -1,58 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Projects</title>
-</head>
-<body>
-    <header>
-        <h2>ZEMENU</h2>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="Interests.html">Interests</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+    <link
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+    <link
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    >
+  </head>
+  <body class="bg-dark text-white px-5">
+    <header class="header pb-5">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+        <div class="container">
+          <h2 class="navbar-brand">ZEMENU</h2>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#menu-list"
+            aria-controls="menu-list"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="menu-list"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Interests.html">Interests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main>
-        <h3>So far</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odit expedita animi vero? Molestias optio harum minus
-             fuga numquam praesentium nisi dolor dolorem minima doloribus, inventore similique, quos incidunt necessitatibus.</p>
-        <div>
-            <figure>
-                <a href="https://github.com/Teklez/password-manager"><img src="images/project1.jpg" alt="project1" ></a>
-                <figcaption>project1</figcaption>
-            </figure>
+    <main class="projects-main pt-5">
+      <section class="projects container">
+        <div class="main-text">
+          <h3>So far</h3>
+          <p>Worked on</p>
         </div>
-        <div>
-            <figure>
-                <a href="https://github.com/Teklez/pomodoro"><img src="images/project2.jpg" alt="project2"  ></a>
-                <figcaption>project2</figcaption>
-            </figure>
+        <div class="project-content row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/project1.jpg"
+                alt="project1"
+              >
+              <div class="card-body bg-dark text-white">
+                <h5 class="card-title">Password manager</h5>
+                <p class="card-text">
+                  Best widget at hand for handling passwords
+                </p>
+                <a
+                  href="https://github.com/Teklez/password-manager"
+                  class="btn btn-secondary"
+                  ><i class="fas fa-chevron-circle-up"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/project2.jpg"
+                alt="project1"
+              >
+              <div class="card-body bg-dark text-white">
+                <h5 class="card-title">Password manager</h5>
+                <p class="card-text">
+                  Best widget at hand for handling passwords
+                </p>
+                <a
+                  href="https://github.com/Teklez/password-manager"
+                  class="btn btn-secondary"
+                  ><i class="fas fa-chevron-circle-up"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/project3.jpg"
+                alt="project1"
+              >
+              <div class="card-body bg-dark text-white">
+                <h5 class="card-title">Password manager</h5>
+                <p class="card-text">
+                  Best widget at hand for handling passwords
+                </p>
+                <a
+                  href="https://github.com/Teklez/password-manager"
+                  class="btn btn-secondary"
+                  ><i class="fas fa-chevron-circle-up"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/project4.jpg"
+                alt="project1"
+              >
+              <div class="card-body bg-dark text-white">
+                <h5 class="card-title">Snake Game</h5>
+                <p class="card-text">Python game</p>
+                <a
+                  href="https://github.com/Teklez/password-manager"
+                  class="btn btn-secondary"
+                  ><i class="fas fa-chevron-circle-up"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/project5.jpg"
+                alt="project1"
+              >
+              <div class="card-body bg-dark text-white">
+                <h5 class="card-title">Alien Invasion</h5>
+                <p class="card-text">
+                  Kill aliens best game developed with python
+                </p>
+                <a
+                  href="https://github.com/Teklez/password-manager"
+                  class="btn btn-secondary"
+                  ><i class="fas fa-chevron-circle-up"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/project6.jpg"
+                alt="project1"
+              >
+              <div class="card-body bg-dark text-white">
+                <h5 class="card-title">Pong Game</h5>
+                <p class="card-text">A 2D game built with python</p>
+                <a
+                  href="https://github.com/Teklez/password-manager"
+                  class="btn btn-secondary"
+                  ><i class="fas fa-chevron-circle-up"></i
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-            <figure>
-                <a href="https://github.com/Teklez/snake-game"><img src="images/project3.jpg" alt="project3"  ></a>
-                <figcaption>project3</figcaption>
-            </figure>
-        </div>
-        <div>
-            <figure>
-                <a href="https://github.com/Teklez/pong-game"><img src="images/project4.jpg" alt="project4"  ></a>
-                <figcaption>project4</figcaption>
-            </figure>
-        </div>
-
+      </section>
     </main>
-    <br>
-    <footer>
-        <p>&copy; Copyright 2023</p>
-        <button>Contact me</button>
+    <hr class="bg-light">
+    <footer class="d-flex justify-content-between flex-wrap-reverse pb-3">
+      <p>&copy; Copyright 2023</p>
+      <button
+        onclick="window.location.href='Contact.html'"
+        class="btn btn-secondary"
+      >
+        Get in touch
+      </button>
     </footer>
-    
-</body>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var navbarToggler = document.querySelector(".navbar-toggler");
+        var menuList = document.querySelector("#menu-list");
+
+        navbarToggler.addEventListener("click", function () {
+          menuList.classList.toggle("show");
+        });
+      });
+    </script>
+  </body>
 </html>

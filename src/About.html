@@ -1,128 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-</head>
-<body>
-    <header>
-        <h3>ZEMENU</h3>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="Interests.html">Interests</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+    <link
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+    <link
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    >
+  </head>
+  <body class="bg-dark text-white px-5 pb-2">
+    <header class="pb-5">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+        <div class="container">
+          <h2 class="navbar-brand">ZEMENU</h2>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#menu-list"
+            aria-controls="menu-list"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="menu-list"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Interests.html">Interests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
             </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li><a href="#me">Me</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-            </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main>
-        <section id="me">
+    <main class="py-5">
+      <section id="me" class="mb-4">
+        <div class="row">
+          <div class="col-sm-6 d-flex flex-wrap mb-3">
+            <div class="d-flex is-justify-content-start">
+              <img
+                src="images/me.jpg"
+                alt="my-img"
+                class="img-fluid pr-3 mb-2"
+                width="100"
+              >
+            </div>
+            <div class="">
+              <p><span class="fw-bold">Name: </span>Zemenu Mekuria</p>
+              <p><span class="fw-bold">Profile: </span>Full Stack Developer</p>
+              <p><span class="fw-bold">Degree: </span>Bachelor's Degree</p>
+              <p><span class="fw-bold">Email: </span>zemenumekiria@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6">
             <h2>Me</h2>
-            <img src="images/me.jpg" alt="me" width="50" height="50">
-            <div>
-                <p><span>Name:</span><span>Zemenu Mekuria</span></p>
-                <p><span>Profile:</span><span>Full Stack Developer</span></p>
-                <p><span>Degree:</span><span>Bachelor's Degree</span></p>
-                <p><span>Email:</span><span>zemenumekiria@gmail.com</span></p>
-            </div>
-            <p>My name is Zemenu Mekuria. I am a student at Addis Ababa University. 
-                I am a 3rd year student in the department of Software Engineering. I am from Ethiopia. 
-                I am 21 years old. I am a hardworking person. I am a person who can work under pressure. 
-                I am a person who can work in a team. I am a person who can work with different people.</p>
-        </section>
+            <p>
+              My name is Zemenu Mekuria. I am a student at Addis Ababa
+              University. I am a 3rd year student in the department of Software
+              Engineering. I am from Ethiopia. I am 21 years old. I am a
+              hardworking person. I am a person who can work under pressure. I
+              am a person who can work in a team. I am a person who can work
+              with different people.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
+      <section id="resume" class="mb-5">
+        <h2 class="">Resume</h2>
+        <div class="row mt-5">
+          <div class="col-md-6">
             <div>
-                <p><span>HTML</span><span> 50%</span></p>
-                <p><span>CSS</span><span> 60%</span></p>
-                <p><span>JavaScript</span><span> 50%</span></p>
-                <p><span>java</span><span> 60%</span></p>
-                <p><span>Python</span><span> 80%</span></p>
+              <h3>Education</h3>
             </div>
-        </section>
+            <div class="pt-4">
+              <div>
+                <h4 class="fst-italic fs-6">2022 - 2023</h4>
+                <h5>Python cs-50</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellat reiciendis velit asperiores, dignissimos, cumque
+                  dolorum voluptas
+                </p>
+              </div>
+              <div>
+                <h4 class="fst-italic fs-6">2023 - present</h4>
+                <h5>FreeCodeCamp full-stack</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellat reiciendis velit asperiores, dignissimos, cumque
+                  dolorum voluptas
+                </p>
+              </div>
+              <div>
+                <h4 class="fst-italic fs-6">2021 - 2026</h4>
+                <h5>Bachelor of Science</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellat reiciendis velit asperiores, dignissimos, cumque
+                  dolorum voluptas
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <section id="resume">
-            <h2>Resume</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos, 
-                aliquid ipsa veritatis quaerat aspernatur ab cupiditate odit nesciunt commodi itaque voluptatibus 
-                quia animi molestias pariatur qui sed sit mollitia.</p>
-            <article>
-                <div>
-                    <h3>Summary</h3>
-                    <h4>Zemenu Mekuria</h4>
-                    <p>My name is Zemenu Mekuria. I am a student at Addis Ababa University. 
-                        I am a 3rd year student in the department of Software Engineering. I am from Ethiopia. 
-                        I am 21 years old. I am a hardworking person. I am a person who can work under pressure. 
-                        I am a person who can work in a team. I am a person who can work with different people.</p>
-                    <ul>
-                        <li><span>Age:</span><span>21</span></li>
-                        <li><span>Address:</span><span>Addis Ababa</span></li>
-                        <li><span>Email:</span><span>zemenumekiria@gmail.com</span></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Education</h3>
-                    <h4>Bachelor of Science in Software Engineering</h4>
-                    <h5> 2021 - 2026</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Repellat reiciendis velit asperiores, dignissimos, cumque dolorum voluptas </p>
-                </div>
-                <div>
-                    <h3>Professional Experience</h3>
-                    <h4>Full Stack Developer</h4>
-                    <h5> 2024 - present</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Repellat reiciendis velit asperiores, dignissimos, cumque dolorum voluptas </p>
-                </div>
-            </article>
+          <div class="col-md-6 pt-3">
+            <div>
+              <h3>Professional Experience</h3>
+            </div>
+            <div>
+              <div class="pt-4">
+                <h4 class="fst-italic fs-6">2021 - 2026</h4>
+                <h5>Front-end developer</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellat reiciendis velit asperiores, dignissimos, cumque
+                  dolorum voluptas
+                </p>
+              </div>
+              <div>
+                <h4 class="fst-italic fs-6">2021 - 2026</h4>
+                <h5>Full-stack developer</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellat reiciendis velit asperiores, dignissimos, cumque
+                  dolorum voluptas
+                </p>
+              </div>
+              <div>
+                <h4 class="fst-italic fs-6">2021 - 2026</h4>
+                <h5>Full-stack developer</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellat reiciendis velit asperiores, dignissimos, cumque
+                  dolorum voluptas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section>
+        <h2>Testimonial</h2>
+        <div class="row pt-4">
+          <div class="col-md-6">
+            <div class="mb-4 card p-2 bg-secondary text-white">
+              <p>
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum quia impedit adipisci unde ex non laborum magnam,
+                quaerat fugiat recusandae reiciendis dignissimos totam cumque!
+                Possimus eum illum obcaecati facilis et.
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <img
+                    src="images/customer1.jpg"
+                    alt="Customer 1"
+                    class="img-fluid rounded-circle"
+                  >
+                </div>
+                <div class="col-9">
+                  <h6>John Doe</h6>
+                  <span>Product Enthusiast</span>
+                </div>
+              </div>
+            </div>
 
-        <section id="testimonial">
-            <h2>Testimonial</h2>
-            <div>
-                <div>
-                    <p><q>I had an amazing experience with this product. It exceeded my expectations!</q></p>
-                    <img src="images/customer1.jpg" alt="Customer 1" >
-                    <p>- John Doe</p>
-                    <p>Product Enthusiast</p>
+            <div class="mb-4 card p-2 bg-secondary text-white">
+              <p>
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
+                harum asperiores, impedit quae ipsum atque ratione itaque,
+                delectus vero laboriosam saepe, nam facilis assumenda odit
+                placeat error necessitatibus quisquam dolores?
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <img
+                    src="images/customer2.jpg"
+                    alt="Customer 2"
+                    class="img-fluid rounded-circle"
+                  >
                 </div>
-            </div>
-            <div>
-                <div>
-                    <p><q>The service provided was exceptional. I highly recommend it to everyone.</q></p>
-                    <img src="images/customer2.jpg" alt="Customer 2" >
-                    <p>- Jane Smith</p>
-                    <p>Service Advocate</p>
+                <div class="col-9">
+                  <h6>Jane Smith</h6>
+                  <span>Service Advocate</span>
                 </div>
+              </div>
             </div>
-    
-            <div>
-                <div>
-                    <p><q>This product changed the way I work. I'm grateful for such innovation.</q> </p>
-                    <img src="images/customer3.jpg" alt="Customer 3" >
-                    <p>- Alex Johnson</p>
-                    <p>Innovative Solutions Seeker</p>
+          </div>
+
+          <div class="col-md-6">
+            <div class="mb-4 card p-2 bg-secondary text-white">
+              <p>
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                natus tempore ratione omnis enim ab ipsam iste minus
+                perspiciatis, fugiat mollitia. Blanditiis error, facere
+                perspiciatis fuga necessitatibus rem recusandae iusto.
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <img
+                    src="images/customer3.jpg"
+                    alt="Customer 3"
+                    class="img-fluid rounded-circle"
+                  >
                 </div>
+                <div class="col-9">
+                  <h6>Alex Johnson</h6>
+                  <span>Innovative Solutions Seeker</span>
+                </div>
+              </div>
             </div>
-        </section>
+
+            <div class="mb-4 card p-2 bg-secondary text-white">
+              <p>
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                natus tempore ratione omnis enim ab ipsam iste minus
+                perspiciatis, fugiat mollitia. Blanditiis error, facere
+                perspiciatis fuga necessitatibus rem recusandae iusto.
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="row align-items-center">
+                <div class="col-3 rounded-circle">
+                  <img
+                    src="images/customer3.jpg"
+                    alt="Customer 3"
+                    class="img-fluid rounded-circle"
+                  >
+                </div>
+                <div class="col-9">
+                  <h6>Alex Johnson</h6>
+                  <span>Innovative Solutions Seeker</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <br>
-    <footer>
-        <p>&copy; 2023 Copyright</p>
-        <button>Contact me</button>
+    <hr class="bg-light">
+    <footer class="d-flex justify-content-between flex-wrap-reverse">
+      <p>&copy; Copyright 2023</p>
+      <button onclick="window.location.href='About.html'" class="btn btn-secondary">Contact me</button>
     </footer>
-</body>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var navbarToggler = document.querySelector(".navbar-toggler");
+        var menuList = document.querySelector("#menu-list");
+
+        navbarToggler.addEventListener("click", function () {
+          menuList.classList.toggle("show");
+        });
+      });
+    </script>
+  </body>
 </html>
